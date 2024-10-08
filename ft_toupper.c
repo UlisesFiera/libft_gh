@@ -6,13 +6,13 @@
 /*   By: ulfernan <ulfernan@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 19:54:44 by ulfernan          #+#    #+#             */
-/*   Updated: 2024/10/08 16:16:42 by ulfernan         ###   ########.fr       */
+/*   Updated: 2024/10/08 16:26:18 by ulfernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_toupper(int c)
 {
-	if (up >= 'a' && up <= 'z')
-		return (up - 32);
-	return (up);
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }

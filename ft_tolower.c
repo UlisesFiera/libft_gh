@@ -6,13 +6,13 @@
 /*   By: ulfernan <ulfernan@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 19:54:29 by ulfernan          #+#    #+#             */
-/*   Updated: 2024/10/08 16:16:58 by ulfernan         ###   ########.fr       */
+/*   Updated: 2024/10/08 16:25:54 by ulfernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int	ft_tolower(int c)
 {
-	if (lo >= 'A' && lo <= 'Z')
-		return (lo + 32);
-	return (lo);
+	if (c >= 'A' && c <= 'Z')
+		return (c + 32);
+	return (c);
 }

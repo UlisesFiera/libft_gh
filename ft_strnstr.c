@@ -6,7 +6,7 @@
 /*   By: ulfernan <ulfernan@student.42madrid.c      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/26 19:52:10 by ulfernan          #+#    #+#             */
-/*   Updated: 2024/10/08 16:23:29 by ulfernan         ###   ########.fr       */
+/*   Updated: 2024/10/08 16:26:49 by ulfernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
 	size_t	i;
 	size_t	j;
-	
+
 	if (!haystack || !needle)
 		return (NULL);
 	if (*needle == '\0')
