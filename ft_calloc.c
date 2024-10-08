@@ -6,7 +6,7 @@
 /*   By: ulfernan <ulfernan@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/16 17:01:39 by ulfernan          #+#    #+#             */
-/*   Updated: 2024/10/08 12:35:41 by ulfernan         ###   ########.fr       */
+/*   Updated: 2024/10/08 15:58:06 by ulfernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,5 +21,5 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	if (p == NULL)
 		return (NULL);
 	ft_memset(p, 0, size * nmemb);
-	return (p);	
+	return (p);
 }

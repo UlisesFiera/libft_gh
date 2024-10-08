@@ -6,7 +6,7 @@
 /*   By: ulfernan <ulfernan@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/30 11:16:39 by ulfernan          #+#    #+#             */
-/*   Updated: 2024/10/08 14:04:22 by ulfernan         ###   ########.fr       */
+/*   Updated: 2024/10/08 15:57:18 by ulfernan         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ static char	**populate(char const *s, char c, char **split)
 			i = i + len;
 			j++;
 		}
-		if (s[j] != '\0')
+		if (s[i] != '\0')
 			i++;
 	}
 	split[j] = NULL;
